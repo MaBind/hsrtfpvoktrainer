@@ -21,8 +21,6 @@ public class VokabeltrainerDAO {
 	
 	public VokabeltrainerStore createStore() throws IOException{
 	
-		
-		
 		try {
 			readStore();
 			throw new IOException("File not empty!");
